@@ -1,0 +1,77 @@
+/* .product {
+  display: flex;
+  flex-direction: column;
+  background-color: violet;
+  max-height: 400px;
+  min-width: 100px;
+  margin: 10px;
+}
+
+.product > img {
+  width: 100%;
+  max-height: 400px;
+  object-fit: contain;
+}
+
+.product_info {
+  height: 100px;
+} */
+
+.product {
+  display: flex;
+  flex-direction: column;
+  max-height: 400px;
+  min-width: 100px;
+  background-color: white;
+  align-items: center;
+  margin: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 30px;
+}
+
+.product > img {
+  max-height: 130px;
+  width: 100%;
+  object-fit: contain;
+}
+.AddToBasket {
+  display: flex;
+}
+
+.Discount_Price {
+  border: solid #6391c4;
+  height: 40px;
+  width: 110px;
+  text-align: center;
+  padding-top: 10px;
+  font-size: 24px;
+  color: #6391c4;
+}
+
+.basketIcon {
+  margin-top: 24px;
+  border: 2px solid #6391c4;
+  padding-top: 9px;
+  padding-bottom: 8px;
+  color: white;
+  background-color: #6391c4;
+}
+
+.cut {
+  text-decoration: line-through;
+  font-size: 16px;
+  color: #888888;
+}
+
+.rrp {
+  margin-right: 10px;
+  border: 1px solid lightgray;
+  background-color: #888888;
+  color: white;
+}
+
+.product:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}

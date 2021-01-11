@@ -1,0 +1,105 @@
+.header {
+  background-color: white;
+  display: flex;
+  align-items: center;
+}
+
+.header_logo {
+  width: 230px;
+  margin-top: 0px;
+  top: 0;
+  margin-left: 90px;
+  margin-right: 90px;
+}
+
+.header_SearchIcon {
+  background-color: #ffda00;
+  width: 30px;
+  padding: 5px;
+  border-radius: 0px 100px 100px 0px;
+  cursor: pointer;
+}
+.header_searchInput {
+  padding: 10px;
+  height: 10px;
+  width: 450px;
+  border: none;
+  border-radius: 100px;
+}
+.header_search {
+  display: flex;
+  border: 3px solid;
+  border-color: #ffda00;
+  border-radius: 100px;
+  margin-top: 30px;
+}
+
+.top_headerMain {
+  display: flex;
+  flex-direction: row;
+  color: #696969;
+  margin-left: 600px;
+  align-items: center;
+  margin-top: 10px;
+}
+.top_header1 {
+  display: flex;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.top_heading2 {
+  margin-top: 0px;
+  margin-left: 30px;
+  cursor: pointer;
+}
+
+.top_headingSpan {
+}
+
+.indianFlag {
+  height: 15px;
+  margin-left: 4px;
+  margin-right: 4px;
+  margin-top: 6px;
+}
+
+.header_option {
+  display: flex;
+  margin-top: 30px;
+  margin-left: 45px;
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  cursor: pointer;
+}
+
+.header_Nav {
+  display: flex;
+}
+
+.carticon {
+  fill: #ffda00;
+}
+
+.bottom_header {
+  margin-top: 30px;
+
+  display: flex;
+}
+
+.bottom_headerMenu {
+  display: flex;
+  font-size: 17px;
+  font-weight: 600;
+  font-family: "Open Sans", sans-serif;
+  margin-left: 170px;
+  cursor: pointer;
+}
+
+.bottom_headerMenu1 {
+  font-size: 17px;
+  font-weight: 600;
+  font-family: "Open Sans", sans-serif;
+  margin-left: 140px;
+  cursor: pointer;
+}
